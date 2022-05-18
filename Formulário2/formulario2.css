@@ -49,4 +49,6 @@ fieldset.grupo .campo{
 .campo select option{
     padding-right: 1em;
 }
- .campo input
+ .campo input:focus, .campo select:focus, .campo textarea:focus{
+     background-color: #E0E0F8;
+ }
